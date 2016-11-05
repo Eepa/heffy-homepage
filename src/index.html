@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/heffy-homepage.css">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="lib/jquery.fullPage/jquery.fullPage.css">
-    <link href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/heffy-homepage.css">
 
     <title>HEFFY Homepage</title>
 
@@ -13,45 +13,48 @@
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#introduction">HEFFY</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#forum">Forum</a></li>
-                <li><a href="#clanPage">Clan Page</a></li>
-                <li><a href="#wotLife">WoT-Life</a></li>
-            </ul>
-        </div>
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
     </div>
+    <div id="navbar" class="collapse navbar-collapse">
+        <ul id="menu" class="nav navbar-nav">
+            <li data-menuanchor="introduction"><a href="#introduction">HEFFY</a></li>
+            <li data-menuanchor="forum"><a href="#forum">Forum</a></li>
+            <li data-menuanchor="clanPage"><a href="#clanPage">Clan Page</a></li>
+            <li data-menuanchor="wotLife"><a href="#wotLife">WoT-Life</a></li>
+        </ul>
+    </div>
+
 </nav>
 
-<div class="container">
+<div id="fullpage">
+    <div class="section" data-anchor="introduction">
 
-    <div id="fullpage">
-        <div class="section" data-anchor="introduction">
-            <div class="initial-container">
-                <h1>HEFFY HOMEPAGE</h1>
-                <p class="lead">\o/</p>
-            </div>
+        <h1 class="section-title padding-bottom-50">Welcome to HEFFY since 2014</h1>
+        <img class="padding-bottom-50" src="styles/clanLogo.png" height="500">
+        <h2 class="cursive">WHY you HEFF to be so serious?</h2>
 
-        </div>
-
-        <div class="section" data-anchor="forum">Forum</div>
-
-        <div class="section" data-anchor="clanPage">Clan page</div>
-
-        <div class="section" data-anchor="wotLife">WoT-Life</div>
     </div>
 
+    <div class="section" data-anchor="forum">
+        <h1 class="section-title padding-bottom-50">Our private forum</h1>
+    </div>
+
+    <div class="section" data-anchor="clanPage">
+        <h1 class="section-title padding-bottom-50">Our clan page</h1>
+    </div>
+
+    <div class="section" data-anchor="wotLife">
+        <h1 class="section-title padding-bottom-50">You can find us also in WoT-Life</h1>
+    </div>
 </div>
+
 
 
 
