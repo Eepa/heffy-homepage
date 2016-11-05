@@ -1,8 +1,12 @@
+var isEven = function(number) {
+    return number % 2 == 0;
+};
+
+
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors:['introduction', 'clanPage', 'wotLife', 'recruitment', 'forum'],
-        // sectionsColor: ['#fefefe', '#f9f8f5', '#fefefe', '#f9f8f5', '#fefefe'],
-        sectionsColor: ['#fefefe', '#fefefe', '#fefefe', '#fefefe', '#fefefe'],
+        sectionsColor: ['#fefefe', '#f9f8f5', '#fefefe', '#f9f8f5', '#fefefe', '#fefefe'],
         menu: '#menu',
         verticalCentered: true,
         paddingTop: '70px',
@@ -10,3 +14,4 @@ $(document).ready(function() {
         scrollBar: true
     });
 });
+
