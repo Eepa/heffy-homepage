@@ -14,9 +14,33 @@
 .section-title {
   font-size: 70px;
 }
+.btn-recruitment,
+.btn-recruitment:active,
+.btn-recruitment:active:focus,
+.btn-recruitment:focus {
+  font-size: 30px;
+  color: #fefefe !important;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+  background-color: #020020;
+  border-color: #020020 !important;
+  border: 2px solid;
+}
+.btn-recruitment:hover,
+.btn-recruitment:hover:active {
+  color: #020020 !important;
+  background-color: #fefefe;
+}
 .cursive {
   font-style: italic;
 }
 .padding-bottom-50 {
   padding-bottom: 50px !important;
+}
+.padding-10 {
+  padding: 10px !important;
+}
+.padding-30 {
+  padding: 30px !important;
 }
