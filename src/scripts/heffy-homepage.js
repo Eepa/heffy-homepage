@@ -1,7 +1,12 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors:['introduction', 'clanPage', 'wotLife', 'recruitment', 'forum'],
-        sectionsColor: ['#fefefe', '#f9f8f5', '#fefefe', '#f9f8f5', '#fefefe'],
-        menu: '#menu'
+        // sectionsColor: ['#fefefe', '#f9f8f5', '#fefefe', '#f9f8f5', '#fefefe'],
+        sectionsColor: ['#fefefe', '#fefefe', '#fefefe', '#fefefe', '#fefefe'],
+        menu: '#menu',
+        verticalCentered: false,
+        paddingTop: '70px',
+        responsiveWidth: 767,
+        scrollBar: true
     });
 });
