@@ -14,10 +14,10 @@
 .section-title {
   font-size: 70px;
 }
-.btn-recruitment,
-.btn-recruitment:active,
-.btn-recruitment:active:focus,
-.btn-recruitment:focus {
+.btn-heffy,
+.btn-heffy:active,
+.btn-heffy:active:focus,
+.btn-heffy:focus {
   font-size: 30px;
   color: #fefefe !important;
   -webkit-border-radius: 27px;
@@ -27,16 +27,30 @@
   border-color: #020020 !important;
   border: 2px solid;
 }
-.btn-recruitment:hover,
-.btn-recruitment:hover:active {
+.btn-heffy:hover,
+.btn-heffy:hover:active {
   color: #020020 !important;
   background-color: #fefefe;
+}
+a.icon-next-page {
+  text-decoration: none;
+  color: #020020;
+  font-size: 40px;
 }
 .cursive {
   font-style: italic;
 }
 .padding-bottom-50 {
   padding-bottom: 50px !important;
+}
+.padding-bottom-75 {
+  padding-bottom: 75px !important;
+}
+.padding-bottom-100 {
+  padding-bottom: 100px !important;
+}
+.padding-bottom-150 {
+  padding-bottom: 150px !important;
 }
 .padding-10 {
   padding: 10px !important;
