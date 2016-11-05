@@ -1,6 +1,18 @@
-.section {
-  color: #020020 !important;
-  text-align: center;
+/*****************
+*     Colors     *
+******************/
+/******************
+*     Images      *
+*******************/
+img {
+  width: 100%;
+  height: auto;
+}
+/******************
+*     Layout      *
+*******************/
+body {
+  background-color: #fefefe;
 }
 .navbar-inverse {
   background-color: #020020;
@@ -8,26 +20,44 @@
 .navbar-inverse a.navbar-brand {
   color: #fefefe !important;
 }
-.navbar-inverse ul#menu.nav.navbar-nav li a {
+.navbar-inverse ul#navbar-menu.nav.navbar-nav li a {
   color: #fefefe !important;
 }
-.navbar-inverse ul#menu.nav.navbar-nav li.active a {
+.navbar-inverse ul#navbar-menu.nav.navbar-nav li.active a {
   background-color: #29253d;
+}
+.section {
+  color: #020020 !important;
+  text-align: center;
 }
 .section-title {
   font-size: 70px;
 }
-body {
-  background-color: #fefefe;
+.footer {
+  font-size: 12px;
 }
-img {
-  width: 100%;
-  height: auto;
-}
+/***********************
+*     Text layout      *
+************************/
 .multiline {
   white-space: normal;
   word-wrap: break-word;
 }
+.cursive {
+  font-style: italic;
+}
+a.icon-next-page {
+  text-decoration: none;
+  color: #020020;
+  font-size: 40px;
+}
+a.link-without-style {
+  text-decoration: none;
+  color: #020020;
+}
+/*******************
+*     Buttons      *
+********************/
 .btn-heffy,
 .btn-heffy:active,
 .btn-heffy:active:focus,
@@ -46,21 +76,9 @@ img {
   color: #020020 !important;
   background-color: #fefefe;
 }
-a.icon-next-page {
-  text-decoration: none;
-  color: #020020;
-  font-size: 40px;
-}
-.footer {
-  font-size: 12px;
-}
-a.link-without-style {
-  text-decoration: none;
-  color: #020020;
-}
-.cursive {
-  font-style: italic;
-}
+/**************************
+*     Padding-bottom      *
+***************************/
 .padding-bottom-30 {
   padding-bottom: 50px !important;
 }
@@ -85,12 +103,18 @@ a.link-without-style {
 .padding-bottom-350 {
   padding-bottom: 350px !important;
 }
+/******************
+*     Padding     *
+*******************/
 .padding-10 {
   padding: 10px !important;
 }
 .padding-30 {
   padding: 30px !important;
 }
+/*****************
+*     Margin     *
+******************/
 .margin-20 {
   margin: 20px !important;
 }

@@ -1,73 +1,108 @@
-.section {
-  color: #020020 !important;
-  text-align: center;
-}
+/*****************
+*     Colors     *
+******************/
 
-.navbar-inverse {
-  background-color: #020020;
-  a.navbar-brand {
-    color: #fefefe !important;
-  }
-  ul#menu.nav.navbar-nav li a {
-    color: #fefefe !important;
-  }
-  ul#menu.nav.navbar-nav li.active a {
-    background-color: #29253d;
-  }
-}
+@light-background-color: #fefefe;
+@dark-background-color: #f9f8f5;
+@dark-font-color: #020020;
+@navbar-active-color: #29253d;
 
-.section-title {
-  font-size: 70px;
-}
 
-body {
-  background-color: #fefefe;
-}
+/******************
+*     Images      *
+*******************/
 
 img {
   width: 100%;
   height: auto;
 }
 
-.multiline {
-  white-space: normal;
-  word-wrap: break-word;
+
+/******************
+*     Layout      *
+*******************/
+
+
+body {
+  background-color: @light-background-color;
 }
 
-.btn-heffy, .btn-heffy:active, .btn-heffy:active:focus, .btn-heffy:focus {
-  font-size: 30px;
-  color:  #fefefe !important;
-  -webkit-border-radius: 27px;
-  -moz-border-radius: 27px;
-  border-radius: 27px;
-  background-color: #020020;
-  border-color: #020020 !important;
-  border: 2px solid;
+.navbar-inverse {
+  background-color: @dark-font-color;
+  a.navbar-brand {
+    color: @light-background-color !important;
+  }
+  ul#navbar-menu.nav.navbar-nav li a {
+    color: @light-background-color !important;
+  }
+  ul#navbar-menu.nav.navbar-nav li.active a {
+    background-color: @navbar-active-color;
+  }
 }
 
-.btn-heffy:hover, .btn-heffy:hover:active {
-  color:  #020020 !important;
-  background-color: #fefefe;
+.section {
+  color: @dark-font-color !important;
+  text-align: center;
 }
 
-a.icon-next-page {
-  text-decoration: none;
-  color: #020020;
-  font-size: 40px;
+.section-title {
+  font-size: 70px;
 }
 
 .footer {
   font-size: 12px;
 }
 
-a.link-without-style {
-  text-decoration: none;
-  color: #020020;
+
+/***********************
+*     Text layout      *
+************************/
+
+.multiline {
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .cursive {
   font-style: italic;
 }
+
+a.icon-next-page {
+  text-decoration: none;
+  color: @dark-font-color;
+  font-size: 40px;
+}
+
+a.link-without-style {
+  text-decoration: none;
+  color: @dark-font-color;
+}
+
+
+/*******************
+*     Buttons      *
+********************/
+
+.btn-heffy, .btn-heffy:active, .btn-heffy:active:focus, .btn-heffy:focus {
+  font-size: 30px;
+  color:  @light-background-color !important;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+  background-color: @dark-font-color;
+  border-color: @dark-font-color !important;
+  border: 2px solid;
+}
+
+.btn-heffy:hover, .btn-heffy:hover:active {
+  color:  @dark-font-color !important;
+  background-color: @light-background-color;
+}
+
+
+/**************************
+*     Padding-bottom      *
+***************************/
 
 .padding-bottom-30 {
   padding-bottom: 50px !important;
@@ -101,12 +136,22 @@ a.link-without-style {
   padding-bottom: 350px !important;
 }
 
+
+/******************
+*     Padding     *
+*******************/
+
 .padding-10 {
   padding: 10px !important;
 }
 .padding-30 {
   padding: 30px !important;
 }
+
+
+/*****************
+*     Margin     *
+******************/
 
 .margin-20 {
   margin: 20px !important;
