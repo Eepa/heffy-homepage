@@ -4,7 +4,7 @@ $(document).ready(function() {
         // sectionsColor: ['#fefefe', '#f9f8f5', '#fefefe', '#f9f8f5', '#fefefe'],
         sectionsColor: ['#fefefe', '#fefefe', '#fefefe', '#fefefe', '#fefefe'],
         menu: '#menu',
-        verticalCentered: false,
+        verticalCentered: true,
         paddingTop: '70px',
         responsiveWidth: 767,
         scrollBar: true

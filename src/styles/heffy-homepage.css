@@ -58,6 +58,9 @@ a.link-without-style {
 .cursive {
   font-style: italic;
 }
+.padding-bottom-30 {
+  padding-bottom: 50px !important;
+}
 .padding-bottom-50 {
   padding-bottom: 50px !important;
 }
