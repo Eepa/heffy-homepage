@@ -37,6 +37,13 @@ a.icon-next-page {
   color: #020020;
   font-size: 40px;
 }
+.footer {
+  font-size: 12px;
+}
+a.link-without-style {
+  text-decoration: none;
+  color: #020020;
+}
 .cursive {
   font-style: italic;
 }
@@ -51,6 +58,15 @@ a.icon-next-page {
 }
 .padding-bottom-150 {
   padding-bottom: 150px !important;
+}
+.padding-bottom-200 {
+  padding-bottom: 200px !important;
+}
+.padding-bottom-250 {
+  padding-bottom: 250px !important;
+}
+.padding-bottom-350 {
+  padding-bottom: 350px !important;
 }
 .padding-10 {
   padding: 10px !important;
