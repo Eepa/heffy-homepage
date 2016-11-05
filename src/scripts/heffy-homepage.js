@@ -10,7 +10,7 @@ $(document).ready(function() {
         menu: '#menu',
         verticalCentered: true,
         paddingTop: '70px',
-        paddingBottom: '70px',
+        paddingBottom: '20px',
         responsiveWidth: 767,
         scrollBar: true
     });
